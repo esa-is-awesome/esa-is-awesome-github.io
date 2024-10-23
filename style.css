@@ -1,0 +1,59 @@
+        /* Basic Styling - Customize to your liking */
+
+
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            max-width: 800px;
+            background-color: #222;
+        }
+
+        .pageHead {
+            padding-left: 20px;
+        }
+
+        .pageHead, h1, h2 {
+            color: #fff;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: darkgreen;
+            padding-left: 35px;
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+            padding: 10;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            padding-left: 50px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            color: aliceblue;
+            padding-left: 35px;
+        }
