@@ -33,6 +33,15 @@
             text-align: center;
         }
 
+        .showcase, nav {
+            text-align: center;
+        }
+
+        .showcaseItem {
+            flex-flow: column;
+            text-shadow:bisque;
+        }
+
         .aboutMeText, p {
             cursor: pointer;
             text-align: center;

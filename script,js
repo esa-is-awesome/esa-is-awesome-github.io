@@ -1,0 +1,19 @@
+
+
+
+// Select all elements on the page
+const allElements = document.querySelectorAll('*'); 
+
+// Function to move elements down
+function moveElementsDown() {
+    console.log("move elementDown has been pressed");
+    
+    allElements.forEach(element => {
+        element.style.transform = 'translateY(100vh)'; // Move down by 100% of viewport height
+        element.style.transition = 'transform 1s ease'; // Add a smooth transition
+    });
+}
+
+// Attach the function to your button's click event
+const startButton = document.querySelector('.showcaseItemStart'); 
+startButton.addEventListener('click', moveElementsDown);
